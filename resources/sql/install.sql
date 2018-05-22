@@ -232,7 +232,7 @@ INSERT INTO `quartier` (`id_quartier`, `lib_quartier`) VALUES (99999, 'Inutile')
 
 CREATE TABLE `status` (
 `id_status` int(11) NOT NULL AUTO_INCREMENT,
-  `lib_status` varchar(100) DEFAULT NULL,,
+  `lib_status` varchar(100) DEFAULT NULL,
   `color_status` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id_status`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE = utf8mb4_unicode_ci AUTO_INCREMENT=1;
